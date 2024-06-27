@@ -2,7 +2,7 @@ appname: resumeadmin
 replicaCount: 1
 image:
   repository: rohitazure369/pratech:resumeadmin
-  pullPolicy: always
+  pullPolicy: Always
 resources:
   limits:
     cpu: "0.1"
