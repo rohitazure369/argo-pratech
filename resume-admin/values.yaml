@@ -1,0 +1,16 @@
+appname: resumeadmin
+replicaCount: 1
+image:
+  repository: rohitazure369/pratech:resumeadmin
+  pullPolicy: always
+resources:
+  limits:
+    cpu: "0.1"
+    memory: "128Mi"
+  requests:
+    cpu: "0.1"
+    memory: "128Mi"
+
+service: 
+  extport: 9102
+  intport: 80
