@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: {{ .Values.appname }}
-        image: {{ .Values.image.repo }}
+        image: {{ .Values.image.repository }}
         imagePullPolicy: {{ .Values.image.pullpolicy }}
         resources:
           limits:
